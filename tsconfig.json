@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,9 +22,38 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/(auth)/forgot-password/page.jsx",
+    "app/(auth)/login/page.jsx",
+    "app/(auth)/register/page.jsx",
+    "app/about/page.jsx",
+    "app/admin/page.jsx",
+    "app/contact/page.jsx",
+    "app/blog/page.jsx",
+    "app/blog/[slug]/page.jsx",
+    "app/layout.jsx",
+    "app/loading.jsx",
+    "app/not-found.jsx",
+    "app/page.jsx",
+    "components/footer/Footer.jsx",
+    "components/postCard/PostCard.jsx",
+    "components/navbar/NavBar.jsx",
+    "components/navbar/links/Links.jsx",
+    "components/navbar/links/navLink/navLink.jsx",
+    "lib/data.js",
+    "lib/models.js",
+    "lib/utils.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
